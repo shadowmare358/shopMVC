@@ -10,6 +10,7 @@ namespace shopMVC.Controllers
     {
         public IActionResult Index()
         {
+            //zmiana w gałęzi logowanie
             return View();
         }
     }
