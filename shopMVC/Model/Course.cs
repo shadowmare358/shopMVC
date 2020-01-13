@@ -23,6 +23,7 @@ namespace shopMVC.Model
         public decimal CoursePrice { get; set; }
         public bool Bestseller { get; set; }
         public bool Hidden { get; set; }
+        public string DescShort { get; set; }
 
         public virtual Category Category { get; set; }
     }
